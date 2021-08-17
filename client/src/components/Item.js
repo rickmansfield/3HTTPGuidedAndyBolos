@@ -23,6 +23,8 @@ function Item(props) {
   }
 
   const handleEditClick = (e) => {
+    console.log('handelEditClick fired!');
+    console.log('handleEditClick Props = ', props);;
     // props.history.push(`/item-update/${id}`);
     push(`/item-update/${id}`);
   };
